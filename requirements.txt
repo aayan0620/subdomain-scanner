@@ -1,0 +1,4 @@
+# optional future use
+dnspython
+tqdm
+colorama
