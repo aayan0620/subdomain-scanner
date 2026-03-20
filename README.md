@@ -48,4 +48,4 @@ A powerful **multithreaded subdomain scanner** built in Python with a clean CLI 
 ```bash
 git clone https://github.com/YOUR_USERNAME/subdomain-scanner.git
 cd subdomain-scanner
-pip install -r requirements.txt
+python subdomain_scanner.py
