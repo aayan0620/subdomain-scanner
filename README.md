@@ -1,33 +1,51 @@
-# 🔥 SUBDOMAIN SCANNER 🔥
+# 🔥 Subdomain Scanner
 
-> A fast, multithreaded Python subdomain scanner for reconnaissance and cybersecurity learning.
+![Banner](images/banner.png)
 
----
-
-## 🚀 About
-
-Subdomain Scanner is a powerful reconnaissance tool used to discover hidden subdomains of a target domain.  
-It helps penetration testers and security researchers identify attack surfaces.
-
-This tool supports both command-line arguments and interactive input.
+A powerful **multithreaded subdomain scanner** built in Python with a clean CLI interface, real-time scanning, and hacker-style output.
 
 ---
 
 ## ⚡ Features
 
-- 🚀 Fast multithreaded scanning  
-- 📂 Custom wordlist support  
-- 🧠 Subdomain resolution using DNS  
-- 🔥 CLI + Interactive mode  
-- 💾 Save results to file  
-- ⚡ Real-time output  
+- 🚀 Fast Multithreading
+- 💻 CLI + Interactive Mode
+- 🎯 Real-time Subdomain Discovery
+- 🎨 Colored Output (Hacker Style)
+- 📊 Scan Summary & Statistics
+- 💾 Save Results to File
+- ⚡ Optimized Performance with Timeout
+- 🔒 Thread-Safe Execution
 
 ---
 
-## 🛠️ Installation
+## 🖥️ Tool Preview
+
+![Terminal](images/terminal.png)
+
+---
+
+## 🧠 How It Works
+
+![Dashboard](images/dashboard.png)
+
+- Takes a target domain  
+- Uses a wordlist of subdomains  
+- Performs DNS resolution  
+- Displays live results  
+- Generates summary report  
+
+---
+
+## 👨‍💻 Cybersecurity Vibe
+
+![Hacker](images/hacker.png)
+
+---
+
+## 🚀 Installation
 
 ```bash
-git clone https://github.com/Amoonbhatti/subdomain-scanner.git
+git clone https://github.com/YOUR_USERNAME/subdomain-scanner.git
 cd subdomain-scanner
 pip install -r requirements.txt
-python subdomain_scanner.py
