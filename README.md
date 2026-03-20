@@ -1,5 +1,17 @@
 # 🔥 Subdomain Scanner
 
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-green?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
+![Scanner](https://img.shields.io/badge/Subdomain-Scanner-red?style=for-the-badge)
+![Author](https://img.shields.io/badge/Author-Amoon%20Bhatti-orange?style=for-the-badge)
+
+![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/subdomain-scanner?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/YOUR_USERNAME/subdomain-scanner?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/YOUR_USERNAME/subdomain-scanner?style=for-the-badge)
+# 🔥 Subdomain Scanner
+
 ![Banner](images/banner.png)
 
 A powerful **multithreaded subdomain scanner** built in Python with a clean CLI interface, real-time scanning, and hacker-style output.
