@@ -20,11 +20,11 @@ def banner():
                             |___/ |___/                
 
    🔥 Subdomain Scanner 🔥
-   👨‍💻 Author: Amoon Bhatti
+   👨‍💻 Author: AAYAN 
 """)
 
 # Argument parser
-parser = argparse.ArgumentParser(description="Subdomain Scanner by Amoon Bhatti")
+parser = argparse.ArgumentParser(description="Subdomain Scanner by AAYAN")
 
 parser.add_argument("-d", "--domain", help="Target domain (e.g. example.com)")
 parser.add_argument("-t", "--threads", type=int, help="Number of threads")
@@ -95,5 +95,5 @@ print(f"⚡ Threads       : {threads}")
 print(f"⏱ Time Taken    : {time_taken} sec")
 
 # 🔥 FOOTER BRANDING
-print(Fore.CYAN + Style.BRIGHT + "\n🔥 Powered by Amoon Bhatti")
-print(Fore.YELLOW + "💻 Cyber Security Researcher | YouTube: Technical Haroon\n")
+print(Fore.CYAN + Style.BRIGHT + "\n🔥 Powered by AAYAN")
+print(Fore.YELLOW + "💻 Cyber Security Researcher\n")
