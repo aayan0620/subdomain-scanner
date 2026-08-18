@@ -1,120 +1,55 @@
-# 🔥 Subdomain Scanner
+# Subdomain Scanner
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge\&logo=python)
-![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-green?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
-![Scanner](https://img.shields.io/badge/Subdomain-Scanner-red?style=for-the-badge)
-![Author](https://img.shields.io/badge/Author-AYYAN-orange?style=for-the-badge)
+## About
 
----
+A multithreaded subdomain scanner built in Python. It's designed for enumerating subdomains quickly, useful for cybersecurity practice, bug bounty work, or general penetration testing exploration.
 
-## 🧠 About
+## Features
 
-A powerful **multithreaded subdomain scanner** built in Python.
-It is designed for **cybersecurity enthusiasts, bug bounty hunters, and penetration testers** to perform fast and efficient subdomain enumeration.
+- Multithreaded scanning
+- CLI and interactive mode
+- Real time subdomain discovery
+- Colored terminal output
+- Scan summary and statistics
+- Save results to a file
+- Thread safe execution
 
----
+## How It Works
 
-## ⚡ Features
+The tool takes a target domain, loads subdomains from a wordlist, performs DNS resolution on each one, and shows live results as it goes. Once finished, it generates a summary of what it found.
 
-* 🚀 Fast Multithreading
-* 💻 CLI + Interactive Mode
-* 🎯 Real-time Subdomain Discovery
-* 🎨 Colored Output (Hacker Style)
-* 📊 Scan Summary & Statistics
-* 💾 Save Results to File
-* 🔒 Thread-Safe Execution
-
----
-
-## 🖥️ Tool Preview
-
-![Terminal](images/terminal.png)
-
----
-
-## 🧠 How It Works
-
-* Takes a target domain
-* Loads subdomains from wordlist
-* Performs DNS resolution
-* Shows live results
-* Generates final summary
-
----
-
-## 🚀 Installation
+## Installation
 
 ```bash
-git clone https://github.com/aayan0620/port-scanner.git
-cd port-scanner
+git clone https://github.com/aayan0620/subdomain-scanner.git
+cd subdomain-scanner
 pip install -r requirements.txt
 ```
 
----
+## Usage
 
-## ▶️ Usage
-
-### 🔹 Basic Scan
+Basic scan:
 
 ```bash
 python subdomain_scanner.py -d example.com
 ```
 
-### 🔹 With Threads
+With a custom thread count:
 
 ```bash
 python subdomain_scanner.py -d example.com -t 100
 ```
 
-### 🔹 Save Output
+Save output to a file:
 
 ```bash
 python subdomain_scanner.py -d example.com -o results.txt
 ```
 
-### 🔹 Full Command
+Full command with all options:
 
 ```bash
 python subdomain_scanner.py -d example.com -t 100 -o output.txt
 ```
 
----
-
-## 📂 Project Structure
-
-```
-port-scanner/
-│
-├── subdomain_scanner.py
-├── wordlist.txt
-├── requirements.txt
-├── images/
-│   └── terminal.png
-└── README.md
-```
-
----
-
-## ⚠️ Disclaimer
-
-This tool is created for **educational and ethical purposes only**.
-Do not use it on unauthorized targets.
-
----
-
-## 👨‍💻 Author
-
-**AYYAN**
-Cyber Security Enthusiast
-
----
-
-## ⭐ Support
-
-If you like this project, give it a ⭐ on GitHub.
-
----
-
-## 🔥 Powered by AYYAN
+## Project Structure
