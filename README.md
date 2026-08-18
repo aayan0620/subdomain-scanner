@@ -51,10 +51,3 @@ Full command with all options:
 ```bash
 python subdomain_scanner.py -d example.com -t 100 -o output.txt
 ```
-
-## Project Structure
-subdomain-scanner/
-├── subdomain_scanner.py
-├── wordlist.txt
-├── requirements.txt
-└── README.md
